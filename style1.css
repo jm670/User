@@ -1,0 +1,126 @@
+
+  /* POLICE ET COULEUR GÉNÉRALE */
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f0f2f5;
+    color: #333;
+    line-height: 1.6;
+  }
+  
+  /* EN-TÊTE */
+  header {
+    background-color: #007bff;
+    color: white;
+    padding: 15px 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+  }
+  
+  nav ul li {
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  nav ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  /* CONTENEUR PRINCIPAL */
+  .container {
+    max-width: 800px;
+    margin: 30px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  }
+  
+  /* PHOTO DE PROFIL */
+  .profile-photo {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .avatar {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 3px solid #007bff;
+    object-fit: cover;
+  }
+  
+  /* INFOS PERSONNELLES */
+  .profile-info {
+    text-align: center;
+  }
+  
+  .profile-info h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .profile-info p {
+    margin: 5px 0;
+  }
+  
+  /* ACTIVITÉS RÉCENTES */
+  .recent-activities {
+    margin-top: 30px;
+  }
+  
+  .recent-activities h2 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    border-bottom: 2px solid #007bff;
+    padding-bottom: 5px;
+  }
+  
+  .recent-activities ul {
+    list-style: disc;
+    padding-left: 20px;
+  }
+  
+  .recent-activities li {
+    margin-bottom: 8px;
+  }
+  
+  /* ACTIONS DU PROFIL */
+  .profile-actions {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .profile-actions button {
+    background-color: #007bff;
+    color: white;
+    padding: 12px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .profile-actions button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* PIED DE PAGE */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #333;
+    color: white;
+    margin-top: 50px;
+  }
+  

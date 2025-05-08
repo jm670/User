@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Page Utilisateur</title>
+    <link rel="stylesheet" href="style1.css"> <!-- Lien vers le fichier CSS pour le style -->
+</head>
+<script src="script1.js"></script>
+<body>
+    <!-- Section de l'en-tête -->
+    <header>
+        <nav>
+            <ul>
+                <li><a href="/">Accueil</a></li>
+                <li><a href="/profile">Mon Profil</a></li>
+                <li><a href="/logout">Se Déconnecter</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Section du profil utilisateur -->
+    <main class="user-profile">
+        <div class="container">
+            <!-- Photo de profil -->
+            <div class="profile-photo">
+                <img src="avatar1.jpg" alt="Photo de profil" class="avatar">
+            </div>
+
+            <!-- Informations personnelles -->
+            <div class="profile-info">
+                <h1>Nom Prénom</h1>
+                <p><strong>Profession :</strong> Étudiant(e) en Chimie-Biologie-Géologie</p>
+                <p><strong>Email :</strong> utilisateur@example.com</p>
+                <p><strong>Téléphone :</strong> +229 90 00 00 00</p>
+                <p><strong>Inscrit depuis :</strong> Janvier 2023</p>
+            </div>
+
+            <!-- Activités récentes -->
+            <div class="recent-activities">
+                <h2>Activités Récentes</h2>
+                <ul>
+                    <li>Participe à un projet de recherche en biologie marine.</li>
+                    <li>Rédaction d'un article sur la géologie du Bénin.</li>
+                    <li>Préparation à l'examen de chimie organique.</li>
+                </ul>
+            </div>
+
+            <!-- Boutons d'édition -->
+            <div class="profile-actions">
+                <button onclick="window.location.href='/edit-profile'">Modifier Profil</button>
+                <button onclick="window.location.href='/change-password'">Changer Mot de Passe</button>
+            </div>
+        </div>
+    </main>
+
+    <!-- Section du pied de page -->
+    <footer>
+        <p>&copy; 2025 Université d'Abomey-Calavi | Tous droits réservés</p>
+    </footer>
+
+</body>
+</html>
